@@ -29,7 +29,7 @@ int main() {
         sf::Event event;
         enemy.Movement(windowWidth,windowHeight,window);
         for (auto &item : enemies) {
-            item.Movement(windowWidth,windowHeight);
+            item.Movement(windowWidth,windowHeight,window);
         }
         if (currentEnemies < maxEnemySpawn && spawnTimer >= enemySpawnRate){
             enemies.push_back(Enemy(windowWidth *0.4f,0,windowWidth,windowHeight));

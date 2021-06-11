@@ -11,10 +11,10 @@ void Enemy::Movement(int windowWidth, int windowHeight,sf::RenderWindow* RWindow
         startDirection = true;
         enemyShape.setRadius(75);
     }
-    sf::Vector2i position = sf::Mouse::getPosition(*RWindow);
-    Position.x = position.x;
-    Position.y = position.y;
-    /*if(direction == 0){
+    //sf::Vector2i position = sf::Mouse::getPosition(*RWindow);
+    //Position.x = position.x;
+    //Position.y = position.y;
+    if(direction == 0){
         Position.x -= 0.1f;
         Position.y += 0.05f;
     }
@@ -27,7 +27,7 @@ void Enemy::Movement(int windowWidth, int windowHeight,sf::RenderWindow* RWindow
     }
     if(Position.x >= windowWidth - 150){
         direction = 0;
-    }*/
+    }
 }
 void Enemy::DrawCircle(sf::RenderWindow* RWindow) {
     SetColor(ballColor,enemyShape);
