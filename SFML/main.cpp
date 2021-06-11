@@ -21,7 +21,7 @@ int main() {
     std::vector<Enemy> enemies;
     Enemy enemy(windowWidth *0.4f,0,windowWidth,windowHeight);
     for(int i = 0; i < 2;i++){
-        //enemies.push_back(Enemy(windowWidth *0.4f,0,windowWidth,windowHeight));
+        enemies.push_back(Enemy(windowWidth *0.4f,0,windowWidth,windowHeight));
         currentEnemies +=1;
     }
     while(window->isOpen()){
@@ -29,11 +29,11 @@ int main() {
         sf::Event event;
         enemy.Movement(windowWidth,windowHeight,window);
         for (auto &item : enemies) {
-            //item.Movement(windowWidth,windowHeight);
+            item.Movement(windowWidth,windowHeight);
         }
         if (currentEnemies < maxEnemySpawn && spawnTimer >= enemySpawnRate){
-            //enemies.push_back(Enemy(windowWidth *0.4f,0,windowWidth,windowHeight));
-            //currentEnemies +=1;
+            enemies.push_back(Enemy(windowWidth *0.4f,0,windowWidth,windowHeight));
+            currentEnemies +=1;
             spawnTimer = 0;
         }
         while(window->pollEvent(event)){
