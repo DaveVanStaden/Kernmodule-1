@@ -1,0 +1,8 @@
+"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\davev\CLionProjects\SFML
+C:/Users/davev/CLionProjects/SFML/cmake_modules
+-- Found SFML 2.5.1 in C:/SFML/include
+SFML found
+debugC:/SFML/lib/libsfml-system-d.aoptimizedC:/SFML/lib/libsfml-system.adebugC:/SFML/lib/libsfml-window-d.aoptimizedC:/SFML/lib/libsfml-window.adebugC:/SFML/lib/libsfml-graphics-d.aoptimizedC:/SFML/lib/libsfml-graphics.adebugC:/SFML/lib/libsfml-network-d.aoptimizedC:/SFML/lib/libsfml-network.adebugC:/SFML/lib/libsfml-audio-d.aoptimizedC:/SFML/lib/libsfml-audio.a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/davev/CLionProjects/SFML/cmake-build-debug
