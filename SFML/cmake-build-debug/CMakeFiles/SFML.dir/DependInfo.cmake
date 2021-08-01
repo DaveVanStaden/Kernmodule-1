@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/davev/CLionProjects/SFML/Circle.cpp" "C:/Users/davev/CLionProjects/SFML/cmake-build-debug/CMakeFiles/SFML.dir/Circle.cpp.obj"
   "C:/Users/davev/CLionProjects/SFML/Enemy.cpp" "C:/Users/davev/CLionProjects/SFML/cmake-build-debug/CMakeFiles/SFML.dir/Enemy.cpp.obj"
   "C:/Users/davev/CLionProjects/SFML/Player.cpp" "C:/Users/davev/CLionProjects/SFML/cmake-build-debug/CMakeFiles/SFML.dir/Player.cpp.obj"
+  "C:/Users/davev/CLionProjects/SFML/Score.cpp" "C:/Users/davev/CLionProjects/SFML/cmake-build-debug/CMakeFiles/SFML.dir/Score.cpp.obj"
+  "C:/Users/davev/CLionProjects/SFML/Timer.cpp" "C:/Users/davev/CLionProjects/SFML/cmake-build-debug/CMakeFiles/SFML.dir/Timer.cpp.obj"
   "C:/Users/davev/CLionProjects/SFML/Vector2.cpp" "C:/Users/davev/CLionProjects/SFML/cmake-build-debug/CMakeFiles/SFML.dir/Vector2.cpp.obj"
   "C:/Users/davev/CLionProjects/SFML/main.cpp" "C:/Users/davev/CLionProjects/SFML/cmake-build-debug/CMakeFiles/SFML.dir/main.cpp.obj"
   )

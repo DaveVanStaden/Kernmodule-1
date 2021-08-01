@@ -1,22 +1,16 @@
 #include "Player.h"
-void Player::MovementLeft(){
-    Position.x -= 10;
-}
-void Player::MovementRight(){
-    Position.x += 10;
-}
+#include <iostream>
+void Player::Movement(float force){
+    if(speed < maxSpeed && speed > minSpeed){
+        speed += force;
+    }
 
-bool Player::CollidesWith(Enemy& e){
-    //std::cout << "x= " << Position.x << "y= " << Position.y << "EnemyX= " << e.Position.x << "EnemyY= " << e.Position.y;
-    //if(e.Position.x-75 >= Position.x-50 && e.Position.x-75 <= Position.x ||e.Position.x+75 >= Position.x-50 && e.Position.x+75 <= Position.x){
-        //if(e.Position.y-75 >= Position.y-50 && e.Position.y-75 <= Position.y || e.Position.y+75 >= Position.y-50 && e.Position.y+75 <= Position.y){
-        if(e.Position.x <= Position.x+50 && e.Position.y <= Position.y){
-            if(e.Position.x >= Position.x && e.Position.y <= Position.y+50){
-                printf("IK STERF");
-            }
-        }
-            return true;
-       //}
-   //}
-    return false;
+    if(speed > 0){
+        speed -= friction;
+    }
+    else if (speed < 0){
+        speed += friction;
+    }
+
+    Position.x += speed;
 }

@@ -12,10 +12,14 @@ public:
     void DrawCircle(sf::RenderWindow* RWindow);
     void GenerateColor();
     void SetColor(int WhichColor, sf::CircleShape &circle);
+    void ResetPosition();
     sf::CircleShape enemyShape;
     bool startDirection = false;
     int direction;
     int ballColor;
+    float minSpeed = -2;
+    float speed = 0.1;
+    float maxSpeed = 2;
 
 private:
 };

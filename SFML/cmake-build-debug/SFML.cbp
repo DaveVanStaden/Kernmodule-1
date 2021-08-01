@@ -100,6 +100,18 @@
 		<Unit filename="C:/Users/davev/CLionProjects/SFML/Player.h">
 			<Option target="SFML"/>
 		</Unit>
+		<Unit filename="C:/Users/davev/CLionProjects/SFML/Score.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="C:/Users/davev/CLionProjects/SFML/Score.h">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="C:/Users/davev/CLionProjects/SFML/Timer.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="C:/Users/davev/CLionProjects/SFML/Timer.h">
+			<Option target="SFML"/>
+		</Unit>
 		<Unit filename="C:/Users/davev/CLionProjects/SFML/Vector2.cpp">
 			<Option target="SFML"/>
 		</Unit>

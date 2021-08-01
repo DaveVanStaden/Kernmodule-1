@@ -16,6 +16,7 @@ public:
 
     void SetX(const float x);
     void SetY(const float y);
+    bool collisionDetection(Vector2 player, Vector2 enemy, float radiusPlayer, float radiusEnemy);
 private:
 };
 

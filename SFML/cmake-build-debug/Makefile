@@ -222,6 +222,60 @@ Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML.dir\build.make CMakeFiles/SFML.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+Score.obj: Score.cpp.obj
+
+.PHONY : Score.obj
+
+# target to build an object file
+Score.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML.dir\build.make CMakeFiles/SFML.dir/Score.cpp.obj
+.PHONY : Score.cpp.obj
+
+Score.i: Score.cpp.i
+
+.PHONY : Score.i
+
+# target to preprocess a source file
+Score.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML.dir\build.make CMakeFiles/SFML.dir/Score.cpp.i
+.PHONY : Score.cpp.i
+
+Score.s: Score.cpp.s
+
+.PHONY : Score.s
+
+# target to generate assembly for a file
+Score.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML.dir\build.make CMakeFiles/SFML.dir/Score.cpp.s
+.PHONY : Score.cpp.s
+
+Timer.obj: Timer.cpp.obj
+
+.PHONY : Timer.obj
+
+# target to build an object file
+Timer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML.dir\build.make CMakeFiles/SFML.dir/Timer.cpp.obj
+.PHONY : Timer.cpp.obj
+
+Timer.i: Timer.cpp.i
+
+.PHONY : Timer.i
+
+# target to preprocess a source file
+Timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML.dir\build.make CMakeFiles/SFML.dir/Timer.cpp.i
+.PHONY : Timer.cpp.i
+
+Timer.s: Timer.cpp.s
+
+.PHONY : Timer.s
+
+# target to generate assembly for a file
+Timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFML.dir\build.make CMakeFiles/SFML.dir/Timer.cpp.s
+.PHONY : Timer.cpp.s
+
 Vector2.obj: Vector2.cpp.obj
 
 .PHONY : Vector2.obj
@@ -294,6 +348,12 @@ help:
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
+	@echo ... Score.obj
+	@echo ... Score.i
+	@echo ... Score.s
+	@echo ... Timer.obj
+	@echo ... Timer.i
+	@echo ... Timer.s
 	@echo ... Vector2.obj
 	@echo ... Vector2.i
 	@echo ... Vector2.s

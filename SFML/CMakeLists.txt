@@ -3,12 +3,13 @@ project(SFML)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SFML main.cpp Vector2.cpp Vector2.h main.h Circle.cpp Circle.h Player.cpp Player.h Enemy.cpp Enemy.h)
+add_executable(SFML main.cpp Vector2.cpp Vector2.h main.h Circle.cpp Circle.h Player.cpp Player.h Enemy.cpp Enemy.h Score.cpp Score.h Timer.cpp Timer.h)
 #include_directories(headers /usr/include c:/SFML/include)
 
 # Detect and add SFML
 set(SFML_ROOT c:/SFML)
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static-libstdc++ -static-libgcc")
 message(${CMAKE_MODULE_PATH})
 
 find_package(SFML 2 REQUIRED system window graphics network audio)
